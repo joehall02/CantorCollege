@@ -1,0 +1,15 @@
+h1,
+h2,
+h3,
+p,
+address,
+li,
+td,
+form {
+  font-family: sans-serif;
+}
+
+.logo img {
+  width: 150px;
+  height: 150x;
+}
