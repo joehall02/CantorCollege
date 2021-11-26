@@ -1,26 +1,65 @@
 <!DOCTYPE html>
 <html>
-    <head>
+  <head> </head>
 
-    </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="learning-resources.html">Learning Resources</a></li>
+          <li><a href="staff.html">Staff</a></li>
+          <li><a href="student.html">Students</a></li>
+          <li><a href="business.html">Business</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="courses.html">Courses</a></li>
-                    <li><a href="learning-resources.html">Learning Resources</a></li>
-                    <li><a href="staff.html">Staff</a></li>
-                    <li><a href="student.html">Students</a></li>
-                    <li><a href="business.html">Business</a></li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
+    <section>
+      <form action="thank-you.html">
+        <div>
+          <label for="yourName">Name:</label>
+          <input type="text" name="yourName" id="yourName" placeholder="Name" />
+        </div>
+        <div>
+          <label>Email:</label>
+          <input type="email" name="email" placeholder="E-Mail" />
+        </div>
+        <div>
+          <label>Telephone:</label>
+          <input type="tel" name="tel" placeholder="Telephone Number" />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter Your Message"
+          ></textarea>
+        </div>
+        <div class="submitContainer">
+          <input type="submit" value="Send" />
+        </div>
+      </form>
+    </section>
 
-        <footer>
-            <p>Copyright &copy; 2021</p>
-        </footer>
-    </body>
+    <div class="sidebar">
+      <h2>How to Find Us</h2>
+      <p>Tel:(01321) 2340 235</p>
+      <p>Fax: (01321) 2340 236</p>
+      <p>Email: info@cantorcollege.ac.uk</p>
+      <address>
+        Cantor College<br />
+        Main Street<br />
+        Sheffield<br />
+        SC4 2BB
+      </address>
+    </div>
+
+    <footer>
+      <p>Copyright &copy; 2021</p>
+    </footer>
+  </body>
 </html>
