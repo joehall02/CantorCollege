@@ -1,0 +1,28 @@
+nav ul li {
+  display: inline;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-left: 1px solid white;
+}
+
+nav li:first-child {
+  border-left: none;
+}
+
+nav ul li a:hover {
+  color: #f2a903;
+}
+
+header {
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+nav ul {
+  flex-direction: row;
+}
+
+#main {
+  display: flex;
+}
