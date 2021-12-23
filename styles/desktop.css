@@ -1,7 +1,7 @@
 nav ul li {
   display: inline;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
   border-left: 1px solid white;
 }
 
@@ -10,6 +10,10 @@ nav li:first-child {
 }
 
 nav ul li a:hover {
+  color: #f2a903;
+}
+
+#cantor h1 a:hover {
   color: #f2a903;
 }
 
@@ -25,4 +29,32 @@ nav ul {
 
 #main {
   display: flex;
+  margin-left: 10px;
+}
+
+#main p {
+  margin-left: 10px;
+}
+
+#sidebar {
+  flex: 0 1 200px;
+  border: 3px solid #f2a903;
+  border-radius: 10px;
+  padding: 20px 40px;
+  margin-top: 10px;
+  text-align: center;
+  max-height: 400px;
+  background-color: #523e0e;
+}
+
+#sidebar p,
+#sidebar h2,
+#sidebar address {
+  color: white;
+}
+
+#container {
+  margin: auto;
+  min-width: 600px;
+  max-width: 1300px;
 }

@@ -39,6 +39,13 @@ nav ul li a {
   display: flex;
 }
 
+#cantor h1 a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
 footer {
   border-top: 2px solid #f2a903;
   margin: 15px 10px 10px 0;
