@@ -52,3 +52,27 @@ footer {
   font-style: italic;
   text-align: center;
 }
+
+table {
+  width: 100%;
+  max-width: 900px;
+}
+
+th {
+  border-bottom: 3px solid #f2a903;
+  background-color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+ol li {
+  padding: 10px;
+}
