@@ -43,7 +43,7 @@ nav ul {
   padding: 20px 40px;
   margin-top: 10px;
   text-align: center;
-  max-height: 400px;
+  max-height: 420px;
   background-color: #523e0e;
 }
 
@@ -57,4 +57,32 @@ nav ul {
   margin: auto;
   min-width: 600px;
   max-width: 1300px;
+}
+
+form {
+  margin: auto;
+  width: 100%;
+}
+
+form > div {
+  margin: 15px 0;
+  display: flex;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+.submitContainer {
+  justify-content: flex-start;
+}
+
+input[type="submit"] {
+  width: auto;
+  margin: 0;
+}
+
+.slider {
+  width: 1000px;
 }
