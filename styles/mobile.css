@@ -1,5 +1,6 @@
 body {
   font-family: Trebuchet MS;
+  font-size: 20px;
 }
 
 header h1 {
@@ -98,6 +99,7 @@ ol[type="i"] li {
 .slider img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .resize {

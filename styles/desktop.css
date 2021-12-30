@@ -1,12 +1,18 @@
+body {
+  font-size: 1em;
+}
 nav ul li {
   display: inline;
+  padding: 0;
   padding-left: 25px;
   padding-right: 25px;
+  border: none;
   border-left: 1px solid white;
 }
 
-nav li:first-child {
+nav ul li:first-child {
   border-left: none;
+  border-top: none;
 }
 
 nav ul li a:hover {
@@ -37,6 +43,7 @@ nav ul {
 }
 
 #sidebar {
+  display: block;
   flex: 0 1 200px;
   border: 3px solid #f2a903;
   border-radius: 10px;
@@ -88,4 +95,19 @@ input[type="submit"] {
 
 .slider {
   width: 1000px;
+}
+
+.staff {
+  display: flex;
+  text-align: center;
+}
+
+.staff div {
+  flex-direction: row;
+  margin: 1px;
+}
+
+.staff div img {
+  width: 250px;
+  height: auto;
 }
