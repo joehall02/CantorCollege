@@ -1,6 +1,17 @@
 body {
   font-size: 1em;
 }
+
+nav {
+  display: block;
+}
+
+@media screen and (min-width: 1000px) {
+  nav {
+    display: block !important;
+  }
+}
+
 nav ul li {
   display: inline;
   padding: 0;
@@ -33,7 +44,7 @@ nav ul {
   flex-direction: row;
 }
 
-.burger {
+.burgerMenu {
   display: none;
 }
 

@@ -9,6 +9,11 @@ $(document).ready(function () {
     speed: 400,
     pauseOnHover: true,
     pause: 5000,
-    controls: true, //not visable
+    controls: true,
+  });
+
+  // burger menu
+  $(".burgerMenu").click(function() {
+    $("nav").slideToggle("fast");
   });
 });
