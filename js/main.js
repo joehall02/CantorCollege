@@ -6,7 +6,7 @@ $(document).ready(function () {
     loop: true,
     mode: "slide",
     auto: true,
-    speed: 3000,
+    speed: 400,
     pauseOnHover: true,
     pause: 5000,
     controls: true, //not visable
