@@ -33,6 +33,10 @@ nav ul {
   flex-direction: row;
 }
 
+.burger {
+  display: none;
+}
+
 #main {
   display: flex;
   margin-left: 10px;

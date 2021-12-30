@@ -60,6 +60,14 @@ nav ul li a {
   font-weight: bold;
 }
 
+.burger {
+  display: block;
+  width: 80px;
+  min-width: 80px;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
 footer {
   border-top: 2px solid #f2a903;
   margin: 15px 10px 10px 0;
