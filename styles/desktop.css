@@ -85,6 +85,13 @@ label {
   justify-content: flex-end;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  font-size: 1em;
+}
+
 input[type="submit"] {
   padding: 20px 30px;
 }
