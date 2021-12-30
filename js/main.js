@@ -16,4 +16,25 @@ $(document).ready(function () {
   $(".burgerMenu").click(function() {
     $("nav").slideToggle("fast");
   });
+
+  // expand text
+  $(".showComputing").click(function(){
+    $(".courseDetailsComputing").slideToggle("fast", function(){
+      if ($(this).is(":hidden")) {
+        $(".showComputing").text("Show Course Details");
+      } else {
+        $(".showComputing").text("Hide Course Details");
+      }
+    });
+  });
+
+  $(".showDesign").click(function(){
+    $(".courseDetailsDesign").slideToggle("fast", function(){
+      if ($(this).is(":hidden")) {
+        $(".showDesign").text("Show Course Details");
+      } else {
+        $(".showDesign").text("Hide Course Details");
+      }
+    });
+  });
 });

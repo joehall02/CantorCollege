@@ -137,6 +137,7 @@ textarea {
 input[type="submit"] {
   width: 100%;
   padding: 30px 0;
+  font-size: 25px;
   -webkit-appearance: none;
 }
 
@@ -145,5 +146,13 @@ input[type="submit"] {
 }
 
 #sidebar {
+  display: none;
+}
+
+.courseDetailsComputing {
+  display: none;
+}
+
+.courseDetailsDesign {
   display: none;
 }
