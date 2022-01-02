@@ -67,9 +67,11 @@ nav ul li a {
 .burgerMenu {
   display: block;
   width: 80px;
-  min-width: 80px;
+  min-width: 40px;
+  max-width: 80px;
   margin-left: auto;
-  margin-top: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 footer {
