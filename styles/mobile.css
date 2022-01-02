@@ -1,6 +1,6 @@
 body {
   font-family: Trebuchet MS;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 header h1 {
@@ -69,7 +69,7 @@ nav ul li a {
   width: 80px;
   min-width: 80px;
   margin-left: auto;
-  margin-top: 45px;
+  margin-top: 25px;
 }
 
 footer {
