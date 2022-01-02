@@ -81,6 +81,7 @@ footer {
 
 table {
   width: 100%;
+  max-width: 1070px;
   border: 3px solid #f2a903;
   border-radius: 10px;
 }
@@ -155,4 +156,8 @@ input[type="submit"] {
 
 .courseDetailsDesign {
   display: none;
+}
+
+.center {
+  text-align: center;
 }
