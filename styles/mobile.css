@@ -66,9 +66,7 @@ nav ul li a {
 
 .burgerMenu {
   display: block;
-  width: 60px;
-  min-width: 30px;
-  max-width: 60px;
+  width: 40px;
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
